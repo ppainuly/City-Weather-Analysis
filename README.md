@@ -11,9 +11,11 @@
         
    * Readme file - Summarizes the project and states 3 trends observed
 
-* About - The project aims to visualize the weather of 500+ cities across the world of with various distances from the equator. The list of cities to be analysed were created by two methods, 1) Random numbers were generated for Latitude and Longiture, which were stored as co-ordinates and 2) those co-ordinates were passed to Pyton's library called Citipy which outputs the closest city when passed a co-ordinate. Hence, a list of 500+ cities around the globe was created. This list was then utilized to extract the current weather data for each city using the OpenWeatherMap API. The response was store in a dataframe with each row storing individual city and its weather data. 
+## About - 
+The project aims to visualize the weather of 500+ cities across the world of with various distances from the equator. The list of cities to be analysed were created by two methods, 1) Random numbers were generated for Latitude and Longiture, which were stored as co-ordinates and 2) those co-ordinates were passed to Pyton's library called Citipy which outputs the closest city when passed a co-ordinate. Hence, a list of 500+ cities around the globe was created. This list was then utilized to extract the current weather data for each city using the OpenWeatherMap API. The response was store in a dataframe with each row storing individual city and its weather data. 
 
-* Accuracy of the Dataset - Since the dataset is random, we want to get some insight into the clutterness of the data. To do this, we can check the range of latitudes and make sure that the cities in the list are not all coming from the same region of the globe. The folowing was calculated - 
+## Accuracy of the Dataset - 
+Since the dataset is random, we want to get some insight into the clutterness of the data. To do this, we can check the range of latitudes and make sure that the cities in the list are not all coming from the same region of the globe. The folowing was calculated - 
 
     The range of Latitudes for this analysis is: 133.03
     
@@ -24,7 +26,7 @@
  
 There are 180 possible latitudes and the range of dataset being 133 shows a good estimate of the globe has been covered in respect to varying distance from the globe.
 
-* Statistics to describe the dataset - 
+## Statistics to describe the dataset - 
 
 | Measure| Value |
 | ------------- | ------------- |
