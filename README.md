@@ -24,16 +24,15 @@
  
 There are 180 possible latitudes and the range of dataset being 133 shows a good estimate of the globe has been covered in respect to varying distance from the globe.
 
-|count  |  571.000000|
-|mean   |   19.480158|
-|std    |   33.181208|
-|min    |  -54.810000|
-|25%    |   -7.705000|
-|50%    |   20.960000|
-|75%    |   48.135000|
-|max    |   78.220000|
+* Statistics to describe the dataset - 
 
-| First Header  | Second Header |
+| Measure| Value |
 | ------------- | ------------- |
 | count  | 571.000000 |
 | mean   | 19.480158  |
+| std   | 33.181208  |
+| min   | -54.810000  |
+| 25%    | -7.705000  |
+| 50%    | 20.960000  |
+| 75%    | 48.135000  |
+| max    | 78.220000  |
