@@ -32,3 +32,8 @@ There are 180 possible latitudes and the range of dataset being 133 shows a good
 |50%    |   20.960000|
 |75%    |   48.135000|
 |max    |   78.220000|
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| count  | 571.000000 |
+| mean   | 19.480158  |
