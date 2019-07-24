@@ -46,5 +46,11 @@ There are 180 possible latitudes and the range of dataset being 133 shows a good
   
   Latitude vs. Temperature Plot
   ![Latitude vs. Humidity Plot](Plot_CityLatitude_v_Humidity.png)
+
+  Latitude vs. Cloudiness Plot
+  ![Latitude vs. Cloudiness Plot](Plot_CityLatitude_v_Cloudiness.png)
+  
+  Latitude vs. Wind Speed Plot
+  ![Latitude vs. Wind Speed Plot](Plot_CityLatitude_v_WindSpeed.png)
   
   
