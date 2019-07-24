@@ -38,3 +38,13 @@ There are 180 possible latitudes and the range of dataset being 133 shows a good
 | 50%    | 20.960000  |
 | 75%    | 48.135000  |
 | max    | 78.220000  |
+
+## City Weather Scatter Plots
+
+  Latitude vs. Temperature Plot
+  ![Latitude vs. Temperature Plot](Plot_CityLatitude_v_MaxTemperature.png)
+  
+  Latitude vs. Temperature Plot
+  ![Latitude vs. Humidity Plot](Plot_CityLatitude_v_Humidity.png)
+  
+  
