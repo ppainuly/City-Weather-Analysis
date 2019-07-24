@@ -47,7 +47,7 @@ There are 180 possible latitudes and the range of dataset being 133 shows a good
   Latitude vs. Humidity Plot
   ![Latitude vs. Humidity Plot](Plot_CityLatitude_v_Humidity.png)
   
-  We can see the outlier in this plot. The outlier is for two cities with humidity = 300%. This is an error from the        OpenWeather API becasue the response for these cities had this vlue for Humidity. This is physically impossible becasue the     cities will have to be under water if this is the case.
+  We can see the outlier in this plot. The outlier is for two cities with humidity = 300%. This is an error from the        OpenWeather API becasue the response for these cities had this value for Humidity. This is physically impossible becasue the     cities will have to be under water if this is the case.
 
   Latitude vs. Cloudiness Plot
   ![Latitude vs. Cloudiness Plot](Plot_CityLatitude_v_Cloudiness.png)
@@ -57,6 +57,6 @@ There are 180 possible latitudes and the range of dataset being 133 shows a good
   
 ##Observable Trends
 
-   * There is a lot more demand in Urban areas followed by Suburban and then Rural. This is reflected in each of the charts for  Fares, Drivers and total Rides for which, the data set is dominated by City, then Suburban and then Rural.
-   * There is a inverse corelation between Average Fares and total number of rides per city. The average fare is highest for Rural, then Suburban and then Urban Areas while total rides is the lowest for Rural, Suburban and then City. This explains that since there is a lot more demand in cities, and a lot more riders, the price is lower to combat compititions. It would give us more visibility if we know the distance travelled for each ride to observe if the fare is lower in cities due to shorter rides as opposed to Suburban and Rural areas.
-   * There are markers for cities which have small size(indicating low number of drivers for the city). But these markers(for example x=35, y=24 approx) indicate that the city has a high demand. Hence, Pyber needs to increase its presence in these cities to meed the expected demand.
+   * As the city latitude increases i.e cities are further away from the equator, the maximum temperature increase. There is an inverse correlation between distance to equator(centre of the earth) and temperature. However, the temperature is greater as we approach latitudes close to 20 degrees(tropics) which can be explained by the earth's tilted axis.Additionally, since the time of this analysis has the northern hemisphere tilted towards the sun, the tropics at the northern hemisphere have the hottest temperature.
+   * Wind speed has a small increase as the latitudes increase away from the equator. However, the correlation is not strong and additional dataset is required for further analysis.
+   * Relative humidity changes when temperatures change. Because warm air can hold more water vapor than cool air, relative humidity falls when the temperature rises if no moisture is added to the air
