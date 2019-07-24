@@ -8,8 +8,10 @@
         * Latitudes - Humidity(Plot_CityLatitude_v_Humidity.png), 
         * Latitudes - Max Temperature(Plot_CityLatitude_v_MaxTemperature.png) and 
         * Latitudes - Wind Speed(Plot_CityLatitude_v_WindSpeed.png) 
+
         
-   * Readme file - Summarizes the project and states 3 trends observed
+   * Readme file - Summarizes the project and states 3 trends 
+   * Output CSV file with City data
 
 ## About - 
 The project aims to visualize the weather of 500+ cities across the world of with various distances from the equator. The list of cities to be analysed were created by two methods, 1) Random numbers were generated for Latitude and Longiture, which were stored as co-ordinates and 2) those co-ordinates were passed to Pyton's library called Citipy which outputs the closest city when passed a co-ordinate. Hence, a list of 500+ cities around the globe was created. This list was then utilized to extract the current weather data for each city using the OpenWeatherMap API. The response was store in a dataframe with each row storing individual city and its weather data. 
