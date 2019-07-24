@@ -55,7 +55,7 @@ There are 180 possible latitudes and the range of dataset being 133 shows a good
   Latitude vs. Wind Speed Plot
   ![Latitude vs. Wind Speed Plot](Plot_CityLatitude_v_WindSpeed.png)
   
-##Observable Trends
+## Observable Trends
 
    * As the city latitude increases i.e cities are further away from the equator, the maximum temperature increase. There is an inverse correlation between distance to equator(centre of the earth) and temperature. However, the temperature is greater as we approach latitudes close to 20 degrees(tropics) which can be explained by the earth's tilted axis.Additionally, since the time of this analysis has the northern hemisphere tilted towards the sun, the tropics at the northern hemisphere have the hottest temperature.
    * Wind speed has a small increase as the latitudes increase away from the equator. However, the correlation is not strong and additional dataset is required for further analysis.
